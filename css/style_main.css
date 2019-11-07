@@ -10,7 +10,7 @@
 body{font-family: notosans_demilight; overflow-x:hidden; padding:40px; background-color:#141414; letter-spacing:1px;}
 .hidden{overflow:hidden;}
 
-#intro-text{font-family: notosans_demilight; font-size:20px; color:#fafafa; position: absolute; left:45%; top:35%;}
+#intro-text{font-family: notosans_demilight; font-size:20px; color:#fafafa; position: absolute; left:46%; top:35%;}
 #fancymetry{font-family: notosans_bold; z-index:-1; font-size:100px; text-align:center; margin-left:-30px;
      color:#fafafa; width:100vw;height:100vh;position: absolute; line-height:90vh;}
 #intro img{z-index:1; position:absolute;width:90px;}
@@ -131,8 +131,8 @@ body{font-family: notosans_demilight; overflow-x:hidden; padding:40px; backgroun
 .donhe{z-index:300; background-image:url('../source/teams/donhe/sld01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .johab{z-index:300; background-image:url('../source/teams/195/19501.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .monyam{z-index:300; background-image:url('../source/teams/monyam/monyam01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.kahlua{z-index:300; background-image:url('../source/teams/Kahlua/Kahlua01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.lookback{z-index:300; background-image:url('../source/teams/lookback/lookBack1.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.kahlua{z-index:300; background-image:url('../source/teams/Kahlua/kahlua01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.lookback{z-index:300; background-image:url('../source/teams/lookback/lookback1.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .imade{z-index:300; background-image:url('../source/teams/imade/imade01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 
 
@@ -183,7 +183,7 @@ body{font-family: notosans_demilight; overflow-x:hidden; padding:40px; backgroun
      body{padding:20px;}
      #intro-text{font-size:10px;left:37%; top:45%;}
      #fancymetry{font-size:25px; margin-left:-10px; line-height:95vh;}
-     #intro{display:none;}
+
      #intro img{width:20px;}
 
      .line01{top:45%; left:20%;  width:50px;}
@@ -218,7 +218,7 @@ body{font-family: notosans_demilight; overflow-x:hidden; padding:40px; backgroun
      .intro09{ top:48%; left:80%; opacity:0; transition-duration:1s;}
      .intro09_{ top:46%; left:80%; opacity:1; }
 
-     #header{font-size:10px; margin:-30px; padding-left:30px; padding-top:30px; z-index:1;position:fixed; background-color:#141414;}
+     #header{font-size:8px; margin:-30px; padding-left:30px; padding-top:30px; z-index:1;position:fixed; background-color:#141414;}
      #names li{margin-bottom:20px; margin-right:20px;}
 
      .headertxt02-2{padding-left:30px; padding-top:0px; padding-right:100px;}
