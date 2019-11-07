@@ -1,10 +1,10 @@
 @font-face{
      font-family: notosans_demilight;
-     src: url(./font/NotoSansCJKkr-DemiLight.otf);
+     src: url(../font/NotoSansCJKkr-DemiLight.otf);
 }
 @font-face{
      font-family: notosans_bold;
-     src: url(./font/NotoSansCJKkr-Bold.otf);
+     src: url(../font/NotoSansCJKkr-Bold.otf);
 }
 
 body{font-family: notosans_demilight; overflow-x:hidden; padding:40px; background-color:#141414; letter-spacing:1px;}
@@ -98,42 +98,42 @@ body{font-family: notosans_demilight; overflow-x:hidden; padding:40px; backgroun
 
 
 /*------------------img----------------------*/
-.circle{z-index:400; background-image:url('./source/circle_shapes.png'); background-size:2000px 880px;}
-.triangle{z-index:400; background-image:url('./source/triangle_shapes.png'); background-size:2000px 880px;}
-.square{z-index:400; background-image:url('./source/square_shapes.png'); background-size:2000px 880px;}
-.pentagon{z-index:400; background-image:url('./source/pentagon_shapes.png'); background-size:2000px 880px;}
+.circle{z-index:400; background-image:url('../source/circle_shapes.png'); background-size:2000px 880px;}
+.triangle{z-index:400; background-image:url('../source/triangle_shapes.png'); background-size:2000px 880px;}
+.square{z-index:400; background-image:url('../source/square_shapes.png'); background-size:2000px 880px;}
+.pentagon{z-index:400; background-image:url('../source/pentagon_shapes.png'); background-size:2000px 880px;}
 
 
 
-.argb{z-index:300; background-image:url('./source/teams/argb/argb01.gif');background-size:700px 400px;mix-blend-mode: difference;}
-.ss{z-index:300; background-image:url('./source/teams/ss/ss01.gif'); background-size: 700px 400px;mix-blend-mode: difference;}
-.ak17{z-index:300; background-image:url('./source/teams/AK17/AK1701.gif'); background-size: 700px 400px;mix-blend-mode: difference;}
-.cozy{z-index:300; background-image:url('./source/teams/cozy/cozy01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;}
-.pcg{z-index:300; background-image:url('./source/teams/package/pcg01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} /*패키지*/
-.ddago{z-index:300; background-image:url('./source/teams/1722/17221.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} /*1722*/
-.remember{z-index:300; background-image:url('./source/teams/리멤버/remem01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.cookinz{z-index:300; background-image:url('./source/teams/cookingz/cook01.gif'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.presen{z-index:300; background-image:url('./source/teams/present/present01.png'); background-size: 700px 400px;mix-blend-mode: difference;} /*프레젠트*/
-.jgdc{z-index:300; background-image:url('./source/teams/jgdc/jgdc01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.sgb{z-index:300; background-image:url('./source/teams/sgb/sgb01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.ddd{z-index:300; background-image:url('./source/teams/bs/bs1.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.mmd{z-index:300; background-image:url('./source/teams/MMD/mmd01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.muse{z-index:300; background-image:url('./source/teams/Muse/CellF01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.wevent{z-index:300; background-image:url('./source/teams/wevent/wevent01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.yak{z-index:300; background-image:url('./source/teams/yakhan/yak01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.konnect{z-index:300; background-image:url('./source/teams/djhb/konnect01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.bul{z-index:300; background-image:url('./source/teams/bulbok/bb01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.nn{z-index:300; background-image:url('./source/teams/noname/nn01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.argb{z-index:300; background-image:url('../source/teams/argb/argb01.gif');background-size:700px 400px;mix-blend-mode: difference;}
+.ss{z-index:300; background-image:url('../source/teams/ss/ss01.gif'); background-size: 700px 400px;mix-blend-mode: difference;}
+.ak17{z-index:300; background-image:url('../source/teams/AK17/AK1701.gif'); background-size: 700px 400px;mix-blend-mode: difference;}
+.cozy{z-index:300; background-image:url('../source/teams/cozy/cozy01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;}
+.pcg{z-index:300; background-image:url('../source/teams/package/pcg01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} /*패키지*/
+.ddago{z-index:300; background-image:url('../source/teams/1722/17221.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} /*1722*/
+.remember{z-index:300; background-image:url('../source/teams/리멤버/remem01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.cookinz{z-index:300; background-image:url('../source/teams/cookingz/cook01.gif'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.presen{z-index:300; background-image:url('../source/teams/present/present01.png'); background-size: 700px 400px;mix-blend-mode: difference;} /*프레젠트*/
+.jgdc{z-index:300; background-image:url('../source/teams/jgdc/jgdc01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.sgb{z-index:300; background-image:url('../source/teams/sgb/sgb01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.ddd{z-index:300; background-image:url('../source/teams/bs/bs1.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.mmd{z-index:300; background-image:url('../source/teams/MMD/mmd01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.muse{z-index:300; background-image:url('../source/teams/Muse/CellF01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.wevent{z-index:300; background-image:url('../source/teams/wevent/wevent01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.yak{z-index:300; background-image:url('../source/teams/yakhan/yak01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.konnect{z-index:300; background-image:url('../source/teams/djhb/konnect01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.bul{z-index:300; background-image:url('../source/teams/bulbok/bb01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.nn{z-index:300; background-image:url('../source/teams/noname/nn01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 
-.zipdan{z-index:300; background-image:url('./source/teams/ZIPDAN/ZIPDAN1.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.sodam{z-index:300; background-image:url('./source/teams/2ps1/sd01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.bol1{z-index:300; background-image:url('./source/teams/501h/50101.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.donhe{z-index:300; background-image:url('./source/teams/donhe/sld01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.johab{z-index:300; background-image:url('./source/teams/195/19501.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.monyam{z-index:300; background-image:url('./source/teams/monyam/monyam01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.kahlua{z-index:300; background-image:url('./source/teams/Kahlua/Kahlua01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.lookback{z-index:300; background-image:url('./source/teams/lookback/lookBack1.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.imade{z-index:300; background-image:url('./source/teams/imade/imade01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.zipdan{z-index:300; background-image:url('../source/teams/ZIPDAN/ZIPDAN1.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.sodam{z-index:300; background-image:url('../source/teams/2ps1/sd01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.bol1{z-index:300; background-image:url('../source/teams/501h/50101.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.donhe{z-index:300; background-image:url('../source/teams/donhe/sld01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.johab{z-index:300; background-image:url('../source/teams/195/19501.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.monyam{z-index:300; background-image:url('../source/teams/monyam/monyam01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.kahlua{z-index:300; background-image:url('../source/teams/Kahlua/Kahlua01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.lookback{z-index:300; background-image:url('../source/teams/lookback/lookBack1.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.imade{z-index:300; background-image:url('../source/teams/imade/imade01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 
 
 .clip-circle {clip-path: circle(40px at center);}

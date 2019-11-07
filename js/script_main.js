@@ -4,56 +4,53 @@
 
           console.log('ready');
           setTimeout(function() {
-               $('.line01').addClass('line01_');
-              },0);
-              setTimeout(function() {
-               $('.line02').addClass('line02_');
-              },200);
-              setTimeout(function() {
-                   $('.intro01').addClass('intro01_');
-              },1500);
-              setTimeout(function() {
-                    $('.intro02').addClass('intro02_');
-               },1700);
-               setTimeout(function() {
-                    $('.intro03').addClass('intro03_');
-               },1900);
-               setTimeout(function() {
-                    $('.intro04').addClass('intro04_');
-               },2100);
-               setTimeout(function() {
-                    $('.intro05').addClass('intro05_');
-               },2300);
-               setTimeout(function() {
-                    $('.intro06').addClass('intro06_');
-               },2500);
-               setTimeout(function() {
-                    $('.intro07').addClass('intro07_');
-               },2700);
-               setTimeout(function() {
-                    $('.intro08').addClass('intro08_');
-               },2900);
-               setTimeout(function() {
-                    $('.intro09').addClass('intro09_');
-               },3100);
-     
-               setTimeout(function() {
-                    $('#intro').addClass('animated fadeOut')  
-               },4000)
-               
-     
-               setTimeout(function() {
-                    $('#intro').css("display","none");
-               },4500)
+          $('.line01').addClass('line01_');
+          },0);
+          setTimeout(function() {
+          $('.line02').addClass('line02_');
+          },200);
+          setTimeout(function() {
+               $('.intro01').addClass('intro01_');
+          },1500);
+          setTimeout(function() {
+               $('.intro02').addClass('intro02_');
+          },1700);
+          setTimeout(function() {
+               $('.intro03').addClass('intro03_');
+          },1900);
+          setTimeout(function() {
+               $('.intro04').addClass('intro04_');
+          },2100);
+          setTimeout(function() {
+               $('.intro05').addClass('intro05_');
+          },2300);
+          setTimeout(function() {
+               $('.intro06').addClass('intro06_');
+          },2500);
+          setTimeout(function() {
+               $('.intro07').addClass('intro07_');
+          },2700);
+          setTimeout(function() {
+               $('.intro08').addClass('intro08_');
+          },2900);
+          setTimeout(function() {
+               $('.intro09').addClass('intro09_');
+          },3100);
+          setTimeout(function() {
+               $('#intro').addClass('animated fadeOut')  
+          },4000);
+          setTimeout(function() {
+               $('#intro').css("display","none");
+          },4500);
      
      
      
-               var $wrap = $('#wrap');
-               setTimeout(function() {
-                    $wrap.css("display","block");
-                    $('body').removeClass('hidden');
-                    $wrap.addClass('animated fadeIn');
-               }, 4500);
+          var $wrap = $('#wrap');
+          setTimeout(function() {
+               $wrap.css("display","block");
+               $('body').removeClass('hidden');
+               $wrap.addClass('animated fadeIn');
+          }, 4500);
 
                  
        
@@ -570,9 +567,9 @@
                     var temp1 = parseInt(Math.random()*leng); // ie 에서 동작하기 위해 필요, 크롬 파폭에서는
                     return temp1-temp;
                }).appendTo(ulnames);
-          });
+         
 
-               /*
+       
                setTimeout(function() {
                $('.headertxt01').each( function(i){
                     var bottom_of_element = $(this).offset().top + $(this).outerHeight();
@@ -639,7 +636,7 @@
                     var bottom_of_element = $(this).offset().top + $(this).outerHeight();
                     var bottom_of_window = $(window).scrollTop() + $(window).height();
                     setTimeout(function(){if( bottom_of_window > bottom_of_element ){liArr.eq(12).css({'display':'inline-block'}).animate({'opacity':'1'},500);}},1200);});
-            
+               
                liArr.eq(12).each( function(i){
                     var bottom_of_element = $(this).offset().top + $(this).outerHeight();
                     var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -715,13 +712,11 @@
                     var bottom_of_window = $(window).scrollTop() + $(window).height();
                     setTimeout(function(){if( bottom_of_window > bottom_of_element ){liArr.eq(27).css({'display':'inline-block'}).animate({'opacity':'1'},500);}},2700);});
                },4600);
-          })
-          //--------------------------------------------------------------------------------
-     */
-     
-
-
+          });
      });
+          //--------------------------------------------------------------------------------
+ 
+
 
 
      // 로딩 후 메인
