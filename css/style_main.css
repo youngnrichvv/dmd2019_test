@@ -37,11 +37,11 @@
    }
 
 
-body{font-family: 'Noto Sans KR'; font-weight:400; overflow-x:hidden; padding:40px; background-color:#141414; letter-spacing:1px;}
+body{font-family: 'Noto Sans KR',sans-serif; font-weight:400; overflow-x:hidden; padding:40px; background-color:#141414; letter-spacing:1px;}
 .hidden{overflow:hidden;}
 
-#intro-text{font-family: 'Noto Sans KR'; font-weight:400; font-size:20px; color:#fafafa; position: absolute; left:46%; top:35%;}
-#fancymetry{font-family: 'Noto Sans KR'; font-weight:700;z-index:-1; font-size:100px; text-align:center; margin-left:-30px;
+#intro-text{font-family: 'Noto Sans KR',sans-serif; font-weight:400; font-size:20px; color:#fafafa; position: absolute; left:46%; top:35%;}
+#fancymetry{font-family: 'Noto Sans KR',sans-serif; font-weight:700;z-index:-1; font-size:100px; text-align:center; margin-left:-30px;
      color:#fafafa; width:100vw;height:100vh;position: absolute; line-height:90vh;}
 #intro img{z-index:1; position:absolute;width:90px;}
 .line01{position:absolute; z-index:-2; top:42%; left:27%;  width:120px; height:0px; transition-duration:0.5s; border-left:2px solid #fafafa;transform: rotate(-45deg);}
@@ -105,7 +105,7 @@ body{font-family: 'Noto Sans KR'; font-weight:400; overflow-x:hidden; padding:40
 .headertxt04 img{width:100px;}
 
 
-#contents{z-index:1; padding-top:150px; font-family: 'Noto Sans KR'; font-weight:700;}
+#contents{z-index:1; padding-top:150px; font-family: 'Noto Sans KR',sans-serif; font-weight:700;}
 /*#names{}*/
 #names li{opacity:0; z-index:1; display:none; margin-right:60px; margin-bottom:50px; color:#fafafa; mix-blend-mode:difference;}
 #names a{text-decoration: none; color:#fafafa;}
@@ -151,7 +151,7 @@ body{font-family: 'Noto Sans KR'; font-weight:400; overflow-x:hidden; padding:40
 .muse{z-index:300; background-image:url('../source/teams/Muse/CellF01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .wevent{z-index:300; background-image:url('../source/teams/wevent/wevent01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .yak{z-index:300; background-image:url('../source/teams/yakhan/yak01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.konnect{z-index:300; background-image:url('../source/teams/djhb/konnect01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.konnect{z-index:300; background-image:url('../source/teams/djhb/konect01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .bul{z-index:300; background-image:url('../source/teams/bulbok/bb01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .nn{z-index:300; background-image:url('../source/teams/noname/nn01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 
@@ -161,8 +161,8 @@ body{font-family: 'Noto Sans KR'; font-weight:400; overflow-x:hidden; padding:40
 .donhe{z-index:300; background-image:url('../source/teams/donhe/sld01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .johab{z-index:300; background-image:url('../source/teams/195/19501.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .monyam{z-index:300; background-image:url('../source/teams/monyam/monyam01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.kahlua{z-index:300; background-image:url('../source/teams/Kahlua/kahlua01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.lookback{z-index:300; background-image:url('../source/teams/lookback/lookback1.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.kahlua{z-index:300; background-image:url('../source/teams/kahlua/kahlua01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.lookback{z-index:300; background-image:url('../source/teams/lookback/lookback01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .imade{z-index:300; background-image:url('../source/teams/imade/imade01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 
 
@@ -205,6 +205,7 @@ body{font-family: 'Noto Sans KR'; font-weight:400; overflow-x:hidden; padding:40
 
 @media only screen and (min-width:500px) and (max-width:1700px){
      body{min-width: 1050px;}
+     #intro-text{left:44%;}
 }
 
 
