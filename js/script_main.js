@@ -570,6 +570,7 @@
                     var temp1 = parseInt(Math.random()*leng); // ie 에서 동작하기 위해 필요, 크롬 파폭에서는
                     return temp1-temp;
                }).appendTo(ulnames);
+          });
 
                /*
                setTimeout(function() {
@@ -716,17 +717,11 @@
                },4600);
           })
           //--------------------------------------------------------------------------------
-     
-
      */
      
-               
-          
-
 
 
      });
-
 
 
      // 로딩 후 메인
@@ -734,7 +729,6 @@
 
 
           // 로딩 연결
-
 /*
           console.log('load');
 
@@ -745,15 +739,5 @@
           $intro.css("display","block");
           */
 
-
-
-
-
-
-     
-          
-
-
-     
      });
 })(jQuery);
