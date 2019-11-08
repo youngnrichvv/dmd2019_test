@@ -1,18 +1,42 @@
-@font-face{
-    font-family: notosans_demilight;
-    src: url(../font/NotoSansCJKkr-DemiLight.otf);
-}
-@font-face{
-    font-family: notosans_bold;
-    src: url(../font/NotoSansCJKkr-Bold.otf);
-}
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/noto-sans-kr-v12-korean-regular.eot'); /* IE9 Compat Modes */
+    src: local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
+         url('../fonts/noto-sans-kr-v12-korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/noto-sans-kr-v12-korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/noto-sans-kr-v12-korean-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/noto-sans-kr-v12-korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/noto-sans-kr-v12-korean-regular.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+  }
+  /* noto-sans-kr-700 - korean */
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/noto-sans-kr-v12-korean-700.eot'); /* IE9 Compat Modes */
+    src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
+         url('../fonts/noto-sans-kr-v12-korean-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/noto-sans-kr-v12-korean-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/noto-sans-kr-v12-korean-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/noto-sans-kr-v12-korean-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/noto-sans-kr-v12-korean-700.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+  }
 
-body{font-family: notosans_demilight; background-color:#141414; letter-spacing:1px; overflow:hidden;}
+
+body{font-family: 'Noto Sans KR',sans-serif; font-weight:400;  background-color:#141414; letter-spacing:1px; overflow:hidden;}
 .clear{clear: both; overflow: hidden; height: 0px; margin: 0px;}
 #wrap{z-index:1; margin:40px;}
 
 
 #header{color:#fafafa; line-height:150%;}
+#header a{color:#fafafa; -moz-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    -webkit-transition: all 500ms ease-out;
+    transition: all 500ms ease-out; }
+#header a:hover{color:#868686; }
+
 #header ul{width:100%;}
 #header li {float:left;}
 /*.headertxt01{}*/
@@ -20,6 +44,8 @@ body{font-family: notosans_demilight; background-color:#141414; letter-spacing:1
 .headertxt03{padding-left:160px;}
 .headertxt04{position: absolute; right:40px;}
 .headertxt04 img{width:100px;}
+
+
 
 
 /*content_wrap*/
@@ -32,9 +58,9 @@ body{font-family: notosans_demilight; background-color:#141414; letter-spacing:1
 #project_picture img{width:650px;}
 
 #project_text{width:330px;right:0;margin-left:90px;display:inline-block;}
-#title{font-family: notosans_bold;font-size:60px;margin-bottom:20px;color:#fff;}
-#subtitle{font-family: notosans_demilight;font-size:25px;margin-bottom:50px;color:#fff;}
-.text{font-family: notosans_demilight;font-size:14px; width:330px; color:#fff;margin-top:30px;letter-spacing:1px;line-height:180%;}
+#title{font-family: 'Noto Sans KR',sans-serif; font-weight:700; font-size:60px;margin-bottom:20px;color:#fff;}
+#subtitle{font-size:25px;margin-bottom:50px;color:#fff; line-height: 150%;}
+.text{font-size:14px; width:330px; color:#fff;margin-top:20px;letter-spacing:1px;line-height:180%;}
 
 
 /*content_right*/
@@ -54,13 +80,13 @@ body{font-family: notosans_demilight; background-color:#141414; letter-spacing:1
     -o-transition: all 700ms ease-out;
     -webkit-transition: all 700ms ease-out;
     transition: all 700ms ease-out; }
-.text_b{font-family: notosans_demilight; font-size:18px;color:#fff;}
+.text_b{font-family: 'Noto Sans KR',sans-serif; font-weight:400; font-size:18px;color:#fff;}
 
 /*content_picture*/
 #content_picture{width:150px;top:60px; right:20px; position:absolute;display:inline-block; }
 
 .pic{width:130px; height:130px; padding-bottom:10px; display:inline-block; position: relative; }
-.name{width:130px;font-family: notosans_demilight; cursor:default; bottom:15px;
+.name{width:130px;font-family: 'Noto Sans KR',sans-serif; font-weight:400; cursor:default; bottom:15px;
     color:#fafafa; text-align:center;z-index:333; position: absolute;}
 .pic img{width:130px; position:absolute;display:inline-block;}
 

@@ -53,7 +53,23 @@
           }, 4500);
 
                  
-       
+          var $overview = $('#overview');
+          var $view = $('div.view');
+          var $contents = $('div#contents')
+          var check = true;
+          $overview.on('click',function(){
+               console.log('click')
+               if(check == true){
+                    check=false;
+                    $view.css({'display':'block'}).animate({'opacity':'1'},500);
+                    $contents.animate({'opacity':'0.2'},500);
+               }
+               else if(check == false){
+                    check=true;
+                    $view.css({'display':'none' , 'opacity' :'0'}).animate({'opacity':'0'},500);
+                    $contents.animate({'opacity':'1'},500)
+               }
+          })
 
           var $cursorBg = $("#cursor-bg");
           var $progress = $('#progress');
