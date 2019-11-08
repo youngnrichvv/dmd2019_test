@@ -130,7 +130,7 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400; overflow-x:hidden;
 .view-box{margin-top:10px;border-bottom:1px solid #141414;}
 
 
-#contents{z-index:1; padding-top:150px; font-family: 'Noto Sans KR',sans-serif; font-weight:900;}
+#contents{z-index:1; padding-top:150px; font-family: 'Noto Sans KR',sans-serif; font-weight:700;}
 /*#names{}*/
 #names li{opacity:0; z-index:1; display:none; margin-right:60px; margin-bottom:50px; color:#fafafa; mix-blend-mode:difference;}
 #names a{text-decoration: none; color:#fafafa;}
@@ -231,6 +231,7 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400; overflow-x:hidden;
 @media only screen and (min-width:500px) and (max-width:1700px){
      body{min-width: 1050px;}
      #intro-text{left:44%;}
+     .view{top:24%;}
 }
 
 
@@ -242,10 +243,10 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400; overflow-x:hidden;
 
      #intro img{width:20px;}
 
-     .line01{top:45%; left:20%;  width:50px;}
-     .line02{top:45%; left:80%;  width:50px;}
-     .line01_{width:50px; height:50px;}
-     .line02_{width:50px; height:50px;}
+     .line01{display:none;}
+     .line02{display:none;}
+     .line01_{display:none;}
+     .line02_{display:none;}
 
      .intro01{ top:43%; left:18%;transform: rotate( 270deg); opacity:0; transition-duration:1s;}
      .intro01_{ top:43%; left:20%; opacity:1; }
@@ -285,7 +286,7 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400; overflow-x:hidden;
      .cap{font-size:10px; padding-top:5px;}
      .name{font-size:26px;}
 
-     .view{width:260px; padding:30px; padding-top:50px; top:21%;}
+     .view{width:260px; padding:50px; padding-top:50px; top:21%;}
      .view h1{font-size:14px;}
      .view-text{font-size:10px;}
 }

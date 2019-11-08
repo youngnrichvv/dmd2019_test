@@ -192,8 +192,8 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400;  background-color:
 }
 
 @media only screen and (max-width:500px){
-    body{width:100%; overflow-x:hidden; }
-    #wrap{margin:20px;}
+    body{overflow:auto; overflow-x:hidden;}
+    #wrap{margin:20px; }
 
     #header{color:#fafafa; line-height:150%; font-size:10px;}
     #header ul{width:100%;}
@@ -205,11 +205,11 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400;  background-color:
     .headertxt04 img{width:40px;}
 
     #project_picture img{width:650px;}
-    #Shapes_01{top:80px; right:-250px;}
-    #Shapes_01 img{width:500px; }
-    #Shapes_02 {bottom:-1000px;right:-50px;}
+    #Shapes_01{top:80px; right:0px;}
+    #Shapes_01 img{width:300px; }
+    #Shapes_02 {bottom:-1000px;right:0px;}
     #Shapes_02 img{width:300px;}
-    #Shapes_03 {bottom:-100px;}
+    #Shapes_03 {bottom:-100px; }
     #Shapes_03 img{width:200px; }
 
 
