@@ -166,14 +166,14 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400; overflow-x:hidden;
 .cozy{z-index:300; background-image:url('../source/teams/cozy/cozy01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;}
 .pcg{z-index:300; background-image:url('../source/teams/package/pcg01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} /*패키지*/
 .ddago{z-index:300; background-image:url('../source/teams/1722/17221.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} /*1722*/
-.remember{z-index:300; background-image:url('../source/teams/리멤버/remem01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.remember{z-index:300; background-image:url('../source/teams/remember/remem01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .cookinz{z-index:300; background-image:url('../source/teams/cookingz/cook01.gif'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .presen{z-index:300; background-image:url('../source/teams/present/present01.png'); background-size: 700px 400px;mix-blend-mode: difference;} /*프레젠트*/
 .jgdc{z-index:300; background-image:url('../source/teams/jgdc/jgdc01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .sgb{z-index:300; background-image:url('../source/teams/sgb/sgb01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .ddd{z-index:300; background-image:url('../source/teams/bs/bs1.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .mmd{z-index:300; background-image:url('../source/teams/MMD/mmd01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
-.muse{z-index:300; background-image:url('../source/teams/Muse/muse01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
+.muse{z-index:300; background-image:url('../source/teams/muse/muse01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .wevent{z-index:300; background-image:url('../source/teams/wevent/wevent01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .yak{z-index:300; background-image:url('../source/teams/yakhan/yak01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
 .konnect{z-index:300; background-image:url('../source/teams/djhb/konect01.jpg'); background-size: 700px 400px;mix-blend-mode: difference;} 
