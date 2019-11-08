@@ -286,7 +286,7 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400; overflow-x:hidden;
      .cap{font-size:10px; padding-top:5px;}
      .name{font-size:26px;}
 
-     .view{width:260px; padding:50px; padding-top:50px; top:21%;}
+     .view{width:260px; padding:50px; padding-top:80px; top:21%;}
      .view h1{font-size:14px;}
      .view-text{font-size:10px;}
 }

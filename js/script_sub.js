@@ -286,7 +286,7 @@
             setInterval(onChange,1000);
             function onChange(){
                 count++;
-                $sumImg.attr("src","../source/teams/MIXWEET/team0"+count+".jpg");;
+                $sumImg.attr("src","../source/teams/mixweet/team0"+count+".jpg");;
     
                 if(count>=3){
                     count = 0;
