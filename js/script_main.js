@@ -3,45 +3,63 @@
      $(document).ready(function(){
 
           console.log('ready');
+
           setTimeout(function() {
           $('.line01').addClass('line01_');
           },0);
           setTimeout(function() {
           $('.line02').addClass('line02_');
           },200);
+
           setTimeout(function() {
                $('.intro01').addClass('intro01_');
           },1500);
           setTimeout(function() {
                $('.intro02').addClass('intro02_');
-          },1700);
+          },2450);
           setTimeout(function() {
                $('.intro03').addClass('intro03_');
-          },1900);
+          },2500);
           setTimeout(function() {
                $('.intro04').addClass('intro04_');
           },2100);
           setTimeout(function() {
                $('.intro05').addClass('intro05_');
-          },2300);
+          },2200);
           setTimeout(function() {
                $('.intro06').addClass('intro06_');
-          },2500);
+          },2350);
           setTimeout(function() {
                $('.intro07').addClass('intro07_');
-          },2700);
+          },1700);
           setTimeout(function() {
                $('.intro08').addClass('intro08_');
-          },2900);
+          },2500);
           setTimeout(function() {
                $('.intro09').addClass('intro09_');
-          },3100);
+          },1650);
+          setTimeout(function() {
+               $('.intro10').addClass('intro10_');
+          },1850);
+          setTimeout(function() {
+               $('.intro11').addClass('intro11_');
+          },1950);
+          setTimeout(function() {
+               $('.intro12').addClass('intro12_');
+          },2000);
+          setTimeout(function() {
+               $('.intro13').addClass('intro13_');
+          },2190);
+
+
+
+
           setTimeout(function() {
                $('#intro').addClass('animated fadeOut')  
           },4000);
           setTimeout(function() {
                $('#intro').css("display","none");
-          },4500);
+          },4000);
      
      
      
@@ -50,9 +68,9 @@
                $wrap.css("display","block");
                $('body').removeClass('hidden');
                $wrap.addClass('animated fadeIn');
-          }, 4500);
+          }, 4000);
 
-                 
+              
           var $overview = $('#overview');
           var $view = $('div.view');
           var $contents = $('div#contents')
@@ -62,12 +80,13 @@
                if(check == true){
                     check=false;
                     $view.css({'display':'block'}).animate({'opacity':'1'},500);
-                    $contents.animate({'opacity':'0.2'},500);
                }
                else if(check == false){
                     check=true;
-                    $view.css({'display':'none' , 'opacity' :'0'}).animate({'opacity':'0'},500);
-                    $contents.animate({'opacity':'1'},500)
+                    $view.animate({'opacity':'0',},500);
+                    setTimeout(function() {
+                     $view.css({'display':'none'})
+                    },500);
                }
           })
 
