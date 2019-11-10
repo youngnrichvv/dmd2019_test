@@ -81,6 +81,7 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400;  background-color:
     -o-transition: all 700ms ease-out;
     -webkit-transition: all 700ms ease-out;
     transition: all 700ms ease-out; }
+#team_link a:after{content:' 11/15 오픈'; font-size:12px; font-weight:700;}
 .text_b{font-family: 'Noto Sans KR',sans-serif; font-weight:400; font-size:18px;color:#fff;}
 
 /*content_picture*/
