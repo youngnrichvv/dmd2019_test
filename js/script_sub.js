@@ -154,7 +154,7 @@
             setInterval(onChange,1000);
             function onChange(){
                 count++;
-                $sumImg.attr("src","../source/teams/muse/team0"+count+".jpg");;
+                $sumImg.attr("src","../source/teams/cellf/team0"+count+".jpg");;
     
                 if(count>=3){
                     count = 0;
