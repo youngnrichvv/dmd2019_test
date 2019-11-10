@@ -30,7 +30,7 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400;  background-color:
 #wrap{z-index:1; margin:40px;}
 
 
-#header{color:#fafafa; line-height:150%;}
+#header{color:#fafafa; letter-spacing:0; line-height:150%; font-size:16px;}
 #header a{color:#fafafa; -moz-transition: all 500ms ease-out;
     -o-transition: all 500ms ease-out;
     -webkit-transition: all 500ms ease-out;
@@ -40,8 +40,9 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400;  background-color:
 #header ul{width:100%;}
 #header li {float:left;}
 /*.headertxt01{}*/
-.headertxt02{padding-left:120px;}
-.headertxt03{padding-left:160px;}
+.headertxt02{ padding-left:200px;}
+.headertxt03{ padding-left:210px;}
+.headertxt03-2{ padding-left:200px;}
 .headertxt04{position: absolute; right:40px;}
 .headertxt04 img{width:100px;}
 
@@ -147,22 +148,9 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400;  background-color:
 
 
 
-/*mouse cursor*/
-#cursor-dot,#cursor-bg,#progress{overflow:hidden;position:fixed;top:50%;left:50%;box-sizing:border-box;transform:translateX(-50%) translateY(-50%);pointer-events:none}
-#cursor-dot{z-index:600;width:8px;height:8px;border-radius:50%;background-color:#fafafa;}
-#cursor-bg{z-index:400;width:50px;height:50px;border:1px solid #fff;border-radius:50%;transition:width 200ms ease-in-out,height 200ms ease-in-out,background-color 200ms ease-in-out,border-color 200ms ease-in-out}
-#progress{z-index:500;color:#fff;width:50px;height:50px;border-radius:50%;transition:width 200ms ease-in-out}
-#cursor-bg.active{width:60px;height:60px;background-color:#fff;border-color:#fff;mix-blend-mode:difference}
-#progress.active{width:60px;height:60px}
-#progress span{display:block;position:absolute;top:50%;left:50%;text-align:center;transform:translateX(-50%) translateY(-50%)}
-#progress.active span::after{content:'select';text-transform:uppercase;font-size:10px;line-height:16px;opacity:0;transition:opacity 200ms ease-in-out}
-#progress.active span::after{opacity:1.0}
 
 
 
-@media only screen and (max-width:1700px){
-
-}
 
 @media only screen and (min-width:500px) and (max-width:1700px){
     
@@ -173,7 +161,9 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400;  background-color:
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         }
-    #header{font-size:14px;}
+    #header{font-size:11px;}
+    .headertxt02{ padding-left:150px;}
+    .headertxt03{ padding-left:200px;}
 
     #project_text{width:300px;}
     #content_left{width:870px;}
@@ -197,20 +187,27 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400;  background-color:
 
     #Shapes_01 img{width:700px;}
     #Shapes_02 img{width:500px;}
+
+    #site-map{position:fixed;bottom:10px; width:95%;}
 }
 
 @media only screen and (max-width:500px){
-    body{overflow:auto; overflow-x:hidden;}
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        }
     #wrap{margin:20px; }
 
-    #header{color:#fafafa; line-height:150%; font-size:10px;}
-    #header ul{width:100%;}
-    #header li {float:left;}
+    #header{font-size:9px; width:360px; margin:-30px; padding-left:30px; padding-top:30px; z-index:1;}
+     #names li{margin-bottom:20px; margin-right:20px;}
     /*.headertxt01{}*/
-    .headertxt02{padding-left:40px;}
-    .headertxt03{padding-left:0px; padding-top:20px;}
+    .headertxt01{padding-top:70px;}
+    .headertxt02{font-size:16px; position:absolute; padding-left:0px; line-height:150%; letter-spacing: 1px;}
+    .headertxt03{padding-left:40px; padding-top:70px;display:block;}
+    .headertxt03-2{display:none;}
     .headertxt04{position: absolute; right:50px;}
     .headertxt04 img{width:40px;}
+    
 
     #project_picture img{width:630px;}
     #Shapes_01{top:80px; right:-150px;}
@@ -223,7 +220,7 @@ body{font-family: 'Noto Sans KR',sans-serif; font-weight:400;  background-color:
 
 
     #content_picture{position: relative;}
-    #content_left{width:100%; padding-top:50px;}
+    #content_left{width:100%; padding-top:30px;}
     #project_picture img{width:100%;}
     #project_text{width:100%;margin-left:0px;}
     #title{font-size:40px; padding-top:20px; margin-bottom:10px;}

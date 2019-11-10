@@ -56,10 +56,10 @@
 
           setTimeout(function() {
                $('#intro').addClass('animated fadeOut')  
-          },4000);
+          },4500);
           setTimeout(function() {
                $('#intro').css("display","none");
-          },4000);
+          },4500);
      
      
      
@@ -68,7 +68,7 @@
                $wrap.css("display","block");
                $('body').removeClass('hidden');
                $wrap.addClass('animated fadeIn');
-          }, 4000);
+          }, 4500);
 
               
           var $overview = $('#overview');
